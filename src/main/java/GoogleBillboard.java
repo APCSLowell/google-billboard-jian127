@@ -5,33 +5,34 @@ public void setup()
       String digits= e.substring(i, i+10);
       double dNum =Double.parseDouble(digits);
     if(isPrime(dNum)){
+      System.out.println(digits);
     break;
     }
     i++;
     } 
     ArrayList <Double> arr = new ArrayList <Double>();
       
-for(int i = 2; i < e.length() - 9; i++) {
- String num = e.substring(i, i+10);
- double sum = 0;
+//for(int i = 2; i < e.length() - 9; i++) {
+ //String num = e.substring(i, i+10);
+ //double sum = 0;
   
-for(int n = 0; n < num.length(); n++) {
- double c = Double.parseDouble(num.substring(n, n+1));
- sum += c;
+//for(int n = 0; n < num.length(); n++) {
+ //double c = Double.parseDouble(num.substring(n, n+1));
+// sum += c;
+ // }
+  
+//if(sum == 49) {
+  //double b = Double.parseDouble(num);
+ // arr.add(b);
   }
   
-if(sum == 49) {
-  double b = Double.parseDouble(num);
-  arr.add(b);
-  }
-  
-  }
-System.out.println(arr.get(0)); //f(1)
-System.out.println(arr.get(1)); //f(2)
-System.out.println(arr.get(2));   //f(3)
-System.out.println(arr.get(3));   //f(4)
-System.out.println(arr.get(4));   //f(5)
-}  
+ // }
+//System.out.println(arr.get(0)); //f(1)
+//System.out.println(arr.get(1)); //f(2)
+//System.out.println(arr.get(2));   //f(3)
+//System.out.println(arr.get(3));   //f(4)
+//System.out.println(arr.get(4));   //f(5)
+//}  
   
 public boolean isPrime(double dNum)  
 {   
