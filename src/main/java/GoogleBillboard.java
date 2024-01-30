@@ -8,7 +8,7 @@ public void setup()
       System.out.println(digits);
     break;
     }
-    i++;
+    //i++;
     } 
     //ArrayList <Double> arr = new ArrayList <Double>();
       
