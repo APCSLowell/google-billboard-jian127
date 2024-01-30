@@ -10,7 +10,7 @@ public void setup()
     }
     i++;
     } 
-    ArrayList <Double> arr = new ArrayList <Double>();
+    //ArrayList <Double> arr = new ArrayList <Double>();
       
 //for(int i = 2; i < e.length() - 9; i++) {
  //String num = e.substring(i, i+10);
